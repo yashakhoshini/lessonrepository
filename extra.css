@@ -1,0 +1,37 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    width: 300%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .carousel-slide img {
+    width: 33.33%;
+  }
+  
+  .carousel-left,
+  .carousel-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .carousel-left {
+    left: 10px;
+  }
+  
+  .carousel-right {
+    right: 10px;
+  }
+  
